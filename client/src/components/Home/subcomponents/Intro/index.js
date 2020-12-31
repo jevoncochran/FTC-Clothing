@@ -19,7 +19,7 @@ const Intro = () => {
   useEffect(() => {
     const interval = setInterval(changeImage, 3000);
     return () => clearInterval(interval);
-  }, [imageIndex]);
+  }, [imageIndex, changeImage]);
 
   return (
     <div className="home-intro">
