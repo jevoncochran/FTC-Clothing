@@ -1,9 +1,14 @@
 .nav {
-  //   border: 1px dashed black;
+  background-color: #fff;
+  border: 5px solid black;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.nav-top {
+  //   border: 5px solid black;
   height: 15vh;
   display: flex;
-  padding-left: 10%;
-  padding-right: 10%;
   justify-content: space-between;
 }
 
@@ -20,7 +25,7 @@
 
 .nav-pages-div {
   //   border: 1px dashed black;
-  width: 50%;
+  width: 45%;
   display: flex;
   align-items: center;
   display: flex;
@@ -37,10 +42,61 @@
   //   border: 1px dashed black;
   display: flex;
   align-items: center;
-  width: 8%;
+  width: 25%;
   justify-content: space-between;
 }
 
+.nav-actions-search-div {
+  //   border: 1px dashed black;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
 .nav-action-icon {
-  font-size: 4rem;
+  font-size: 4.4rem;
+}
+
+.nav-actions-search-input {
+  width: 85%;
+  font-size: 1.5rem;
+  border: none;
+  padding-left: 1%;
+}
+
+.nav-bottom {
+  //   border: 1px dashed black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-bottom-aisles {
+  //   border: 1px dashed black;
+  display: flex;
+  justify-content: space-between;
+  height: 65%;
+}
+
+// NavAisle
+
+.nav-aisle {
+  width: 18%;
+}
+
+.nav-aisle-image {
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  border: 1px solid #000;
+  margin-bottom: 7%;
+}
+
+.nav-aisle-name {
+  font-size: 2rem;
+}
+
+.nav-bottom-close-icon {
+  font-size: 5rem;
 }
