@@ -1,6 +1,5 @@
 import React from "react";
 import "./Nav.scss";
-import { navAisles } from "./navAisles";
 
 const NavAisle = (props) => {
   return (
