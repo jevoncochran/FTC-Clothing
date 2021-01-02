@@ -1,9 +1,14 @@
 .nav {
-  //   border: 1px dashed black;
-  height: 15vh;
-  display: flex;
+  background-color: #fff;
+  border: 5px solid black;
   padding-left: 8%;
   padding-right: 8%;
+}
+
+.nav-top {
+  //   border: 5px solid black;
+  height: 15vh;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -57,4 +62,41 @@
   font-size: 1.5rem;
   border: none;
   padding-left: 1%;
+}
+
+.nav-bottom {
+  //   border: 1px dashed black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-bottom-aisles {
+  //   border: 1px dashed black;
+  display: flex;
+  justify-content: space-between;
+  height: 65%;
+}
+
+// NavAisle
+
+.nav-aisle {
+  width: 18%;
+}
+
+.nav-aisle-image {
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  border: 1px solid #000;
+  margin-bottom: 7%;
+}
+
+.nav-aisle-name {
+  font-size: 2rem;
+}
+
+.nav-bottom-close-icon {
+  font-size: 5rem;
 }
